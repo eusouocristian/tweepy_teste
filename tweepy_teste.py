@@ -1,8 +1,6 @@
 import tweepy
 
-with open('token.txt') as f:
-    for line in f:
-        my_token = line
+my_token = 'AAAAAAAAAAAAAAAAAAAAAFm%2BewEAAAAA7tWlQNChQ1Yon%2BR9iExWk978yB8%3D0wtLeLiVo3f1LNKxxegAyr3He8sAiGjPuRU2wzusobb8sPGL6X'
 
 client = tweepy.Client(bearer_token=my_token)
 
